@@ -5,7 +5,7 @@ The program represent a Bot Terminal for see input/output data from the ESP8266 
 
 In this example, we send analog data read from A0 pin (AnalogRead Sketch).
 
-Note: For initialice the bot communication  we need the ID bot, to get it the user need to send any message before the Terminal start to work (telegram_begin() function are blocking).
+Note: For initialise the bot communication  we need the ID bot, to get it the user need to send any message before the Terminal start to work (telegram_begin() function are blocking).
 
 The next libraries are necessaries:
  - UniversalTelegramBot: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
