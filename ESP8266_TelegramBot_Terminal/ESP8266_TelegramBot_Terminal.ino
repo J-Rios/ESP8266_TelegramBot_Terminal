@@ -7,9 +7,10 @@
 /* cualquier texto, en primera instancia, para que comience a funcionar el terminal (el programa estara    */
 /* bloqueado en telegram_begin() mientras tanto).                                                          */
 /*                                                                                                         */
-/* Se precisan las siguientes librerías:                                                                   */
-/* UniversalTelegramBot: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot                    */
-/* ArduinoJson: Buscarla con Arduino IDE en Programa/Incluir libreria/Gestionar librerias                  */
+/* Se precisan las siguientes librerías (buscarlas con Arduino IDE en Programa/Incluir                     */
+/* libreria/Gestionar librerias):                                                                          */
+/* - UniversalTelegramBot                                                                                  */
+/* - ArduinoJson                                                                                           */
 /***********************************************************************************************************/
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
